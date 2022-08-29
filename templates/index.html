@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form class="px-3" action="{{ url_for('download') }}" method="post">
+
+        <div class="form-check px-0">
+            <label for="choice_label" class="py-1 label_dl">Je veux télécharger : </label>
+            
+            <div class="form-check ms-4 px-0">
+                <input class="form-check-input" type="radio" name="option" value="mp4" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">La vidéo au format mp4</label>
+            </div>
+            <div class="form-check ms-4 px-0">
+                <input class="form-check-input" type="radio" name="option" value="mp3" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">L'audio au format mp3</label>
+            </div>
+        </div>
+        <br>
+        
+        <label for="title_label" class="py-1 label_dl">Lien de la vidéo YouTube : </label>
+        
+        <br>
+        
+        <input type="text" class="form-control input_link" name="yt_link" value="{{ request.form['yt_link'] }}" aria-label="YouTube link" aria-describedby="basic-addon2">
+
+        <br>
+
+        <div class="d-grid gap-2">
+            <button class="btn text-white" type="submit">Télécharger</button>
+        </div>
+                    
+    </form>
+{% endblock %}

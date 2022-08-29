@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'another-shabby-light';
+    src: url('../font/Anothershabby_pro_light.ttf');
+}
+
+.logo{
+    height : 200px;
+    width : 200px;
+}
+
+.content{
+    margin: 5% 20% 5% 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+button{
+    background-color:red!important;
+}
+
+h1{
+    font-family: 'another-shabby-light';
+    color: red;
+}
+
+.flex-container{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
