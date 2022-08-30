@@ -1,5 +1,7 @@
 # YouTubeDownloader
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/026a9012e36146949e83729c447d6923)](https://www.codacy.com/gh/binblink/YouTubeDownloader/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=binblink/YouTubeDownloader&amp;utm_campaign=Badge_Grade)
+
 YouTubeDownloader is a webapp allowing you to download any YouTube video.
 You can download either the video file (mp4) or the sound of the YouTube video (mp3).
 Enjoy your files :)
