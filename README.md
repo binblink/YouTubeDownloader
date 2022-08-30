@@ -15,7 +15,7 @@ Enjoy your files :)
 ### How to install
 - Clone this repo locally on your computer
 - Open the folder in your IDE
-- Download FFMPEG and put the "mmpeg.exe" & "ffprobe.exe" files at trhe root of the project folder.
+- Download FFMPEG and put the "mmpeg.exe" & "ffprobe.exe" files at the root of the project folder.
 - Launch a flask server with the following command line :
   ```flask run```
 - You can now access the application from <http://localhost:5000> (or different port according to your local web server settings)
