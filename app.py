@@ -1,8 +1,7 @@
 from pydub import AudioSegment
-from tkinter import Tk
 from tkinter.filedialog import askdirectory
 from pytube import YouTube
-from flask import Flask, render_template, request, url_for, flash, redirect
+from flask import Flask, render_template, request, flash
 import os
 
 app = Flask(__name__)
