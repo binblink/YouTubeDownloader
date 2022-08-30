@@ -17,5 +17,5 @@ Enjoy your files :)
 - Open the folder in your IDE
 - Download FFMPEG and put the "mmpeg.exe" & "ffprobe.exe" files at trhe root of the project folder.
 - Launch a flask server with the following command line :
-  -```flask run```
+  ```flask run```
 - You can now access the application from <http://localhost:5000> (or different port according to your local web server settings)
